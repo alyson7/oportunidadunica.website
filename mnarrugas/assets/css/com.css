@@ -1,0 +1,291 @@
+@media (max-width: 768px) {
+  .video-player {
+    width: 100%;
+    background: 0 0;
+  }
+  .video-player iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+  #frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+}
+
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+.descriptio{
+  text-align: center;
+  color: white;
+}
+.px-1{
+  padding-left:4px;
+  padding-right:4px
+}
+.pt-0.5{
+  padding-top:2px
+}
+.mt-4{
+  margin-top:16px
+}
+@media (min-width:640px){
+  .sm\:text-sm{
+    font-size:14px;
+    line-height:20px
+}
+}
+.mt-2{
+  margin-top:8px
+}
+.mb-2{
+  margin-bottom:8px
+}
+.flex{
+  display:flex
+}
+.w-full{
+  width:100%
+}.space-x-1>:not([hidden])~:not([hidden]){
+  margin-left:.25rem
+}
+.items-center{
+  align-items:center
+}
+.font-\[Helvetica\]{
+  font-family:Helvetica,Arial,sans-serif
+}
+.cursor-pointer{
+  cursor:pointer
+}
+.rounded-full{
+  border-radius:99999px
+}
+.h-12{
+  height:48px
+}
+.w-12{
+  width:48px
+}
+.flex-col{
+  flex-direction:column
+}
+.py-1{
+  padding-top:4px;padding-bottom:4px
+}
+.px-3{
+  padding-left:12px;padding-right:12px
+}
+.pl-0\.5,.px-0\.5{
+  padding-left:2px
+}
+.rounded-\[18px\]{
+  border-radius:18px}
+.bg-stone-100{
+  background-color:#f5f5f4
+  }
+.px-0\.5{
+  padding-right:2px
+  }
+.font-semibold{
+  font-weight:600
+  }
+.text-\[\#365899\]{
+    color:#365899
+  }
+.text-\[13px\]{
+  font-size:13px
+}
+.leading-4{
+  line-height:16px
+}
+.hover\:underline:hover{
+  text-decoration-line:underline
+}
+.text-sm{
+  font-size:14px
+}
+.relative{
+  position:relative
+}
+.justify-between{
+  justify-content:space-between
+}
+.grow{
+  flex-grow:1
+}
+.text-xs{
+  font-size:12px
+}
+.text-\[\#90949c\]{
+  color:#90949c}
+.ml-px{
+    margin-left:1px
+  }
+.gap-1{
+    gap:4px
+  }
+.w-fit{
+    width:fit-content
+  }
+.hidden{
+    display:none
+  }
+.-mt-1{
+    margin-top:-4px
+  }
+.-mt-2{
+    margin-top:-8px
+  }
+.mr-2{
+  margin-right:8px
+}
+.h-4,.h-5{
+  height:16px
+}
+.drop-shadow{
+  --tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)
+}
+.bg-slate-50{
+  background-color:#f8fafc
+}
+.py-0\.5{
+  padding-top:2px;padding-bottom:2px
+}
+.pr-1{
+  padding-right:4px
+}
+.block{
+  display:block
+}
+.w-4{
+  width:16px
+}
+.z-10{
+  z-index:10
+}
+.-ml-1{
+  margin-left:-4px
+}
+.ml-4{
+  margin-left:16px
+}
+.gap-x-0\.5{
+  column-gap:2px
+}
+.mr-0\.5{
+  margin-right:2px;margin-left:2px
+}
+.border-l{
+  border-left-width:1px
+}
+.border-slate-300{
+  border-color:#cbd5e1
+}
+.border-dotted{
+  border-style:dotted
+}
+.ml-5{
+  margin-left:20px
+}
+.h-8{
+  height:32px
+}
+.w-8{
+  width:32px
+}
+.h-10{
+  height:40px
+}
+.w-10{
+  width:40px
+}
+@media (min-width:640px){
+.sm\:w-16{width:64px
+}
+.sm\:ml-12{
+margin-left:48px
+}
+}
+.pl-2{
+  padding-left:8px
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+
+@media (max-width: 768px) {
+  .video-player {
+    margin-top: 0 !important;
+  }
+}
+
+.a-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      color: #2e82bc; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px; 
+      padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+      border-radius: 6px; 
+      background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); 
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+      text-decoration: none!important;
+    }
+    .span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 25px;
+      color: #ffffff; 
+      font-family: Oswald; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+    }
+    .span-btn2 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #f5e051; 
+      font-family: Cabin; 
+      font-weight: bold; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+    }
